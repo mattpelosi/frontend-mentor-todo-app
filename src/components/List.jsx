@@ -1,5 +1,5 @@
 import React from 'react';
-import crossIcon from '../../public/assets/images/icon-cross.svg';
+import crossIcon from '../assets/images/icon-cross.svg';
 
 const List = (props) => {
   const filteredList = props.todos.filter((item) => {

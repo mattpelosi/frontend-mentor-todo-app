@@ -1,6 +1,6 @@
 import React from 'react';
-import moonIcon from '/assets/images/icon-moon.svg'; // in public
-import sunIcon from '/assets/images/icon-sun.svg'; // in public
+import moonIcon from '../assets/images/icon-moon.svg'; // in public
+import sunIcon from '../assets/images/icon-sun.svg'; // in public
 
 const Heading = (props) => {
   return (
