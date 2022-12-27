@@ -4,7 +4,7 @@ import sunIcon from '../assets/images/icon-sun.svg'; // in public
 
 const Heading = (props) => {
   return (
-    <div className="heading-container">
+    <header className="heading-container">
       <h1>TODO</h1>
       <button
         type="button"
@@ -18,7 +18,7 @@ const Heading = (props) => {
           <img className="icon" src={sunIcon} alt="Sun Icon" />
         )}
       </button>
-    </div>
+    </header>
   );
 };
 

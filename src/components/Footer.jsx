@@ -13,7 +13,7 @@ const Footer = (props) => {
   };
 
   return (
-    <div className="list-footer">
+    <section className="list-footer">
       <p className="item-count">{`${itemCount} item${
         itemCount !== 1 ? 's' : ''
       } left`}</p>
@@ -27,7 +27,7 @@ const Footer = (props) => {
       >
         Clear Completed
       </button>
-    </div>
+    </section>
   );
 };
 

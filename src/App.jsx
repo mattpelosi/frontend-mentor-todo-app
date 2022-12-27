@@ -26,7 +26,7 @@ const App = () => {
   const { isMobile } = useWindowDimensions();
 
   return (
-    <div
+    <main
       className={`app-container ${darkMode ? 'darkmode' : ''} ${
         isMobile ? 'is-mobile' : ''
       }`}
@@ -51,7 +51,7 @@ const App = () => {
           isMobile={isMobile}
         />
       )}
-    </div>
+    </main>
   );
 };
 
